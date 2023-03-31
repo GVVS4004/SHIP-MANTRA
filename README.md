@@ -1,11 +1,15 @@
 # Order Management System API
 This is an API for an order management system that allows users to create orders, retrieve orders by ID, update trip status, and retrieve trip status by ID. The API is built with Node.js and Express, and uses Mongoose to interact with a MongoDB database.
 
-# Features
+## Features
 * Create an order with sender and recipient information, package details and list of items and quantities.
 * Retrieve an order by its ID.
 * Update the status of a trip within an order.
 * Retrieve the status of a trip within an order.
+## Dependencies
+* Nodemon
+* Express
+* Mongoose
 
 ## Installation
 1. Clone the repository to your local machine:
